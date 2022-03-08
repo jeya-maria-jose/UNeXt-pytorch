@@ -85,6 +85,6 @@ python val.py --name <exp name>
 
 ### Acknowledgements:
 
-This code-base uses certain code-blocks and helper functions from [Segformer](https://github.com/NVlabs/SegFormer), and [AS-MLP](https://github.com/svip-lab/AS-MLP).
+This code-base uses certain code-blocks and helper functions from [UNet++](https://github.com/4uiiurz1/pytorch-nested-unet) [Segformer](https://github.com/NVlabs/SegFormer), and [AS-MLP](https://github.com/svip-lab/AS-MLP).
 
 ### Citation:
