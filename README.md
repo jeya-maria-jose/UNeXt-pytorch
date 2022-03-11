@@ -1,8 +1,8 @@
 # UNeXt
 
-Official Pytorch Code base for [UNeXt: MLP-based Rapid Medical Image Segmentation Network]()
+Official Pytorch Code base for [UNeXt: MLP-based Rapid Medical Image Segmentation Network](https://arxiv.org/abs/2203.04967)
 
-[Paper]() | [Project](https://jeya-maria-jose.github.io/UNext-web/)
+[Paper](https://arxiv.org/abs/2203.04967) | [Project](https://jeya-maria-jose.github.io/UNext-web/)
 
 ## Introduction
 
