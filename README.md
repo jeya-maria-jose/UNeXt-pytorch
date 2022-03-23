@@ -90,3 +90,11 @@ python val.py --name <exp name>
 This code-base uses certain code-blocks and helper functions from [UNet++](https://github.com/4uiiurz1/pytorch-nested-unet) [Segformer](https://github.com/NVlabs/SegFormer), and [AS-MLP](https://github.com/svip-lab/AS-MLP).
 
 ### Citation:
+```
+@article{valanarasu2022unext,
+  title={UNeXt: MLP-based Rapid Medical Image Segmentation Network},
+  author={Valanarasu, Jeya Maria Jose and Patel, Vishal M},
+  journal={arXiv preprint arXiv:2203.04967},
+  year={2022}
+}
+```
