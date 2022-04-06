@@ -68,12 +68,12 @@ class shiftmlp(nn.Module):
             if m.bias is not None:
                 m.bias.data.zero_()
     
-    def shift(x, dim):
-        x = F.pad(x, "constant", 0)
-        x = torch.chunk(x, shift_size, 1)
-        x = [ torch.roll(x_c, shift, dim) for x_s, shift in zip(x, range(-pad, pad+1))]
-        x = torch.cat(x, 1)
-        return x[:, :, pad:-pad, pad:-pad]
+#     def shift(x, dim):
+#         x = F.pad(x, "constant", 0)
+#         x = torch.chunk(x, shift_size, 1)
+#         x = [ torch.roll(x_c, shift, dim) for x_s, shift in zip(x, range(-pad, pad+1))]
+#         x = torch.cat(x, 1)
+#         return x[:, :, pad:-pad, pad:-pad]
 
     def forward(self, x, H, W):
         # pdb.set_trace()
